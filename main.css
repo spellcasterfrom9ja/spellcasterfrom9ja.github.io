@@ -3,6 +3,29 @@ body {
   /* background-color: aquamarine; */
 }
 
+.nav3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #0088a9;
+}
 
 
 .col-md-8 h2 {
@@ -27,10 +50,56 @@ body {
     margin-top: 5%;
 }
 
+#navbar23 {
+  margin: 20px;
+}
+/* @media (width: 576px) {
+  #nsp {
+    display: none;
+  }
+} */
+
+.wl005{
+  font-size: 30px;
+  text-align: center;
+    font-weight: 800;
+    color: #92003d;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+.wl20{
+  font-size: 25px;
+  text-align: center;
+    font-weight: 700;
+    color: #92003d;
+    text-transform: uppercase;
+}
+
+.wl21{
+  text-align: justify;
+  text-align-last: center;
+}
+
 .wl2{
   font-size: 35px;
   text-align: center;
     font-weight: 900;
+    color: #ffbf18;
+    text-transform: uppercase;
+}
+
+.wl28{
+  font-size: 35px;
+    font-weight: 900;
+    color: #ffbf18;
+    text-transform: uppercase;
+}
+
+.wl27{
+  font-size: 25px;
+  /* text-align: center; */
+    font-weight: 700;
     color: #ffbf18;
     text-transform: uppercase;
 }
@@ -44,6 +113,24 @@ body {
     /* margin-top: 5%; */
 }
 
+.wlp050 {
+  font-size: 18px;
+  /* text-align: center; */
+    font-weight: 600;
+    color: #92003d;
+    text-transform: uppercase;
+    /* margin-top: 5%; */
+}
+
+ .wlp00004 {
+  font-size: 25px;
+  text-align: center;
+    font-weight: 800;
+    color: #92003d;
+    text-transform: uppercase;
+    /* margin-top: 5%; */
+}
+
 .wlp2 {
   font-size: 18px;
   text-align: center;
@@ -51,11 +138,54 @@ body {
     color: white;
 }
 
-.wlp3 {
-  font-size: 20px;
-  text-align: center;
+.wlp28 {
+  font-size: 18px;
     font-weight: 600;
     color: white;
+}
+
+.wlp27 {
+  font-size: 18px;
+  /* text-align: center; */
+    font-weight: 600;
+    color: white;
+}
+
+.wlp3 {
+  font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.wlp3 a {
+  text-decoration: none;
+  color: #198754;
+}
+#p0 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 0;
+  left: 20px;
+  z-index: 15;
+}
+
+#p1 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 130px;
+  left: -75px;
+  z-index: 10;
+}
+
+#p2 {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  top: -310px;
+  left: 305px
+  /* z-index: 100; */
 }
 
 .whats-app {
@@ -71,6 +201,24 @@ body {
   font-size: 30px;
   /* box-shadow: 2px 2px 3px #999; */
   z-index: 100;
+}
+
+#testimonialspicture {
+  width:80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+#tpd {
+  text-align: center;
+  background-color: rgb(243, 234, 186);
+  padding: 10px;
+  /* margin: 1px; */
+}
+.ctaa {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 50px;
 }
 
 .tel {
@@ -92,7 +240,7 @@ body {
 }
 
 .wlpc {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
     font-weight: 800;
     background-color: #92003d;
@@ -108,6 +256,21 @@ body {
     color: white;
     text-transform: uppercase;
     padding: 10px;
+}
+
+.cont{
+  position: relative;
+}
+
+.cont1{
+  position: absolute;
+  left: 5%;
+  top: 180px;
+  background-color: rgb(233, 222, 222);
+  padding: 20px;
+  border-radius: 30px;
+  z-index: 1;
+
 }
 
 #cont3 {
@@ -144,7 +307,7 @@ body {
 
 .wlw {
   text-align: justify;
-  text-align-last: center;
+  /* text-align-last: center; */
 }
 
 #gtb {
