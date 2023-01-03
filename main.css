@@ -2,7 +2,10 @@ body {
   box-sizing: border-box;
   /* background-color: aquamarine; */
 }
-
+.logo img 
+{
+  /* border-radius: 30px; */
+}
 .nav3 {
     display: flex;
     justify-content: space-between;
@@ -199,8 +202,41 @@ body {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  /* box-shadow: 2px 2px 3px #999; */
   z-index: 100;
+}
+.bottomnavcontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bottomtopnavhandles {
+  width: 40px; 
+  height: 40px;
+  background-color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  margin: 3px;
+}
+
+.topnavhandles {
+  width: 40px; 
+  height: 40px;
+  background-color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  margin: 3px;
+}
+
+.sociahandle {
+  width:70px;
+  height: 70px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 40px;
+  right: 15px;
+  z-index: 10;
 }
 
 #testimonialspicture {
@@ -211,9 +247,8 @@ body {
 
 #tpd {
   text-align: center;
-  background-color: rgb(243, 234, 186);
+  background-color: #f7c4d9;
   padding: 10px;
-  /* margin: 1px; */
 }
 .ctaa {
   margin-top: 20px;
